@@ -1,7 +1,0 @@
-# Compiled Java classes (regenerate with javac -d bin src\*.java)
-bin/
-*.class
-
-# OS / editor noise
-Thumbs.db
-desktop.ini

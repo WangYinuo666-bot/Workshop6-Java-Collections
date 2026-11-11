@@ -1,0 +1,6 @@
+Search phrase: "keyword search"
+---------------------------------------------
+Found at index 2: That would be like a keyword search.
+Found at index 6: That is a question to test keyword search.
+---------------------------------------------
+2 paragraph(s) contained the phrase.

@@ -1,0 +1,63 @@
+{
+    // 每个 Exercise 一个启动配置：按 F5，或在“运行和调试”面板下拉选择题目
+    // vmArgs 让 Windows 终端以 UTF-8 输出，Exercise 7 的 \u2500 方框才不会变乱码
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Exercise 1 - Favourite songs",
+            "request": "launch",
+            "mainClass": "Exercise1",
+            "console": "integratedTerminal",
+            "vmArgs": "-Dstdout.encoding=UTF-8"
+        },
+        {
+            "type": "java",
+            "name": "Exercise 2 - Bubble sort",
+            "request": "launch",
+            "mainClass": "Exercise2",
+            "console": "integratedTerminal",
+            "vmArgs": "-Dstdout.encoding=UTF-8"
+        },
+        {
+            "type": "java",
+            "name": "Exercise 3 - Reverse words",
+            "request": "launch",
+            "mainClass": "Exercise3",
+            "console": "integratedTerminal",
+            "vmArgs": "-Dstdout.encoding=UTF-8"
+        },
+        {
+            "type": "java",
+            "name": "Exercise 4 - Decode message",
+            "request": "launch",
+            "mainClass": "Exercise4",
+            "console": "integratedTerminal",
+            "vmArgs": "-Dstdout.encoding=UTF-8"
+        },
+        {
+            "type": "java",
+            "name": "Exercise 5 - Search engine",
+            "request": "launch",
+            "mainClass": "Exercise5",
+            "console": "integratedTerminal",
+            "vmArgs": "-Dstdout.encoding=UTF-8"
+        },
+        {
+            "type": "java",
+            "name": "Exercise 6 - IdentifyMyParts",
+            "request": "launch",
+            "mainClass": "Exercise6",
+            "console": "integratedTerminal",
+            "vmArgs": "-Dstdout.encoding=UTF-8"
+        },
+        {
+            "type": "java",
+            "name": "Exercise 7 - Boxes",
+            "request": "launch",
+            "mainClass": "Exercise7",
+            "console": "integratedTerminal",
+            "vmArgs": "-Dstdout.encoding=UTF-8"
+        }
+    ]
+}
